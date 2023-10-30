@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <input id="input" type="text" readonly>
+    <br>
+    <button onclick="clearAll()">C</button>
+    <button onclick="clearEntry()">CE</button>
+    <button onclick="appendToInput('(')">(</button>
+    <button onclick="appendToInput(')')">)</button>
+    <br>
+    <button onclick="appendToInput('7')">7</button>
+    <button onclick="appendToInput('8')">8</button>
+    <button onclick="appendToInput('9')">9</button>
+    <button onclick="appendToInput('/')">/</button>
+    <br>
+    <button onclick="appendToInput('4')">4</button>
+    <button onclick="appendToInput('5')">5</button>
+    <button onclick="appendToInput('6')">6</button>
+    <button onclick="appendToInput('*')">*</button>
+    <br>
+    <button onclick="appendToInput('1')">1</button>
+    <button onclick="appendToInput('2')">2</button>
+    <button onclick="appendToInput('3')">3</button>
+    <button onclick="appendToInput('-')">-</button>
+    <br>
+    <button onclick="appendToInput('0')">0</button>
+    <button onclick="appendToInput('+')">+</button>
+    <button onclick="calculateResult()">=</button>
+    <br>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
